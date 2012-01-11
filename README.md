@@ -3,7 +3,7 @@ Symfony 2 jQuery Bundle
 
 ## Current Version
 
-jQuery 1.7.0
+jQuery 1.7.1
 
 ## Installation
 
