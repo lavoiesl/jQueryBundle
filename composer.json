@@ -4,7 +4,7 @@
     "description": "Symfony jQuery Bundle",
     "keywords": ["jquery", "javascript", "manymules"],
     "homepage": "http://jquery.com/",
-    "license": "MIT",
+    "license": ["MIT", "GPLv2"],
     "authors": [
         {
             "name": "Bernd Matzner",
