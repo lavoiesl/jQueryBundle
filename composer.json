@@ -1,0 +1,23 @@
+{
+    "name": "manymules/jquery-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony jQuery Bundle",
+    "keywords": ["jquery", "javascript", "manymules"],
+    "homepage": "http://jquery.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernd Matzner",
+            "email": "bernd@manymules.com",
+            "homepage": "http://manymules.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "ManyMules\\JQueryBundle": "" }
+    },
+    "target-dir": "ManyMules/JQueryBundle"
+}
