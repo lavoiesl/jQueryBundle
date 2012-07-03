@@ -4,12 +4,17 @@ Symfony 2 jQuery Bundle
 ## Current Version
 
 jQuery 1.7.2
+jQuery UI 1.8.21
 
 ## Installation
 
-### Add bundle to your vendor folder
+### Add bundle in your `composer.json`
 
-    git submodule add git://github.com/ManyMules/ManyMulesJQueryBundle.git vendor/bundles/ManyMules/Bundle/JQueryBundle
+    {
+        "require": {
+            "lavoiesl/jquery-bundle": "*"
+        }
+    }
 
 ### Add bundle to your application kernel
 
@@ -18,19 +23,10 @@ jQuery 1.7.2
     {
         $bundles = array(
             // ...
-            new ManyMules\Bundle\JQueryBundle\ManyMulesJQueryBundle(),
+            new LavoieSl\jQueryBundle\LavoieSljQueryBundle(),
             // ...
         );
     }
-
-### Add ManyMules bundles folder to autoload
-
-    // app/autoload.php
-    $loader->registerNamespaces(array(
-        ...
-        'ManyMules\Bundle'               => __DIR__.'/../vendor/bundles',
-        ...
-    ));
 
 Licenses
 --------
@@ -39,4 +35,5 @@ Refer to the source code of the included files for license information
 References
 ----------
 [1]: http://jquery.com
-[2]: http://symfony.com
+[2]: http://jqueryui.com
+[3]: http://symfony.com

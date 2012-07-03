@@ -1,11 +1,16 @@
 {
-    "name": "manymules/jquery-bundle",
+    "name": "lavoiesl/jquery-bundle",
     "type": "symfony-bundle",
     "description": "Symfony jQuery Bundle",
-    "keywords": ["jquery", "javascript", "manymules"],
+    "keywords": ["jquery", "javascript", "symfony"],
     "homepage": "http://jquery.com/",
     "license": ["MIT", "GPLv2"],
     "authors": [
+        {
+            "name": "Sebastien Lavoie",
+            "email": "github@lavoie.sl",
+            "homepage": "http://sebastien.lavoie.sl"
+        },
         {
             "name": "Bernd Matzner",
             "email": "bernd@manymules.com",
@@ -17,7 +22,7 @@
         "symfony/framework-bundle": "2.*"
     },
     "autoload": {
-        "psr-0": { "ManyMules\\JQueryBundle": "" }
+        "psr-0": { "LavoieSl\\jQueryBundle": "" }
     },
-    "target-dir": "ManyMules/JQueryBundle"
+    "target-dir": "LavoieSl/jQueryBundle"
 }
