@@ -1,28 +1,27 @@
 {
-    "name": "lavoiesl/jquery-bundle",
-    "type": "symfony-bundle",
-    "description": "Symfony jQuery Bundle",
-    "keywords": ["jquery", "javascript", "symfony"],
-    "homepage": "http://jquery.com/",
-    "license": ["MIT", "GPLv2"],
-    "authors": [
+    "name": "lavoiesl/jquery-bundle"
+    ,"type": "symfony-bundle"
+    ,"description": "Symfony jQuery Bundle"
+    ,"keywords": ["jquery", "javascript", "symfony"]
+    ,"homepage": "http://jquery.com/"
+    ,"license": ["MIT", "GPLv2"]
+    ,"authors": [
         {
-            "name": "Sebastien Lavoie",
-            "email": "github@lavoie.sl",
-            "homepage": "http://sebastien.lavoie.sl"
-        },
-        {
-            "name": "Bernd Matzner",
-            "email": "bernd@manymules.com",
-            "homepage": "http://manymules.com"
+            "name": "Sebastien Lavoie"
+            ,"email": "github@lavoie.sl"
+            ,"homepage": "http://sebastien.lavoie.sl"
         }
-    ],
-    "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*"
-    },
-    "autoload": {
+        ,{
+            "name": "Bernd Matzner"
+            ,"email": "bernd@manymules.com"
+            ,"homepage": "http://manymules.com"
+        }
+    ]
+    ,"require": {
+        "php": ">=5.3.2"
+        ,"symfony/framework-bundle": "2.*"
+    }
+    ,"autoload": {
         "psr-0": { "LavoieSl\\jQueryBundle": "" }
-    },
-    "target-dir": "LavoieSl/jQueryBundle"
+    }
 }
