@@ -24,4 +24,5 @@
     ,"autoload": {
         "psr-0": { "LavoieSl\\jQueryBundle": "" }
     }
+    ,"target-dir": "LavoieSl/jQueryBundle"
 }
